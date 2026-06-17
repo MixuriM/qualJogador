@@ -26,6 +26,7 @@ export default {
       favicon: "./assets/favicon.png",
       output: "static",
       publicPath: "/qualJogador/",
+      bundler: "metro",
       build: {
         output: "static",
       },
