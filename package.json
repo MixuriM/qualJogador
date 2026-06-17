@@ -2,7 +2,7 @@
   "name": "qualjogador",
   "version": "1.0.0",
   "main": "index.js",
-  "homepage": "https://MixuriM.github.io/qualjogador",
+  "homepage": "https://mixurim.github.io/qualjogador",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
