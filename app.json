@@ -28,6 +28,9 @@
       "build": {
         "output": "static"
       }
+    },
+    "experiments": {
+      "baseUrl": "/qualJogador"
     }
   }
 }

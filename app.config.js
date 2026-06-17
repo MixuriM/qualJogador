@@ -22,6 +22,9 @@ export default {
       },
       edgeToEdgeEnabled: true,
     },
+    experiments: {
+      baseUrl: "/qualJogador",
+    },
     web: {
       favicon: "./assets/favicon.png",
       output: "static",
