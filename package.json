@@ -2,7 +2,7 @@
   "name": "qualjogador",
   "version": "1.0.0",
   "main": "index.js",
-  "homepage": "https://seu-usuario.github.io/qualjogador",
+  "homepage": "https://MixuriM.github.io/qualjogador",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -20,8 +20,7 @@
     "react-native-web": "^0.21.0"
   },
   "devDependencies": {
-    "gh-pages": "^6.1.1"
+    "gh-pages": "^6.3.0"
   },
   "private": true
 }
-
