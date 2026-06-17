@@ -89,34 +89,26 @@ GitHub Pages
 
 A aplicação segue uma estrutura modular para facilitar manutenção, escalabilidade e reutilização de componentes.
 
-┌─────────────────────┐
-│      Usuário        │
-└──────────┬──────────┘
-│
-▼
-┌─────────────────────┐
-│       Telas         │
-│     (Screens)       │
-└──────────┬──────────┘
-│
-▼
-┌─────────────────────┐
-│     Componentes     │
-│     Reutilizáveis   │
-└──────────┬──────────┘
-│
-▼
-┌─────────────────────┐
-│ Lógica de Negócio   │
-│  Processamento do   │
-│      Resultado      │
-└──────────┬──────────┘
-│
-▼
-┌─────────────────────┐
-│ Exibição do Perfil  │
-│    do Jogador       │
-└─────────────────────┘
+Usuário
+  │
+  ▼
+Telas (Screens)
+  │
+  ▼
+Componentes Reutilizáveis
+  │
+  ▼
+Lógica de Negócio
+  │
+  ├─ Processamento das Respostas
+  ├─ Cálculo de Pontuação
+  └─ Identificação do Jogador
+  │
+  ▼
+Exibição do Resultado
+  │
+  ▼
+Perfil do Jogador
 
 ═══════════════════════════════════════════════════════════════════════════════
 
